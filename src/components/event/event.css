@@ -1,0 +1,126 @@
+.Event {
+    width: 100vw;
+    height: fit-content;
+}
+
+div.event-head {
+    background-image: url("./rendu.jpg");
+
+    /* background-color: #d7dce4; */
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding-top: 1%;
+}
+
+h1.h1-event {
+    padding-left: 15px;
+    margin-top: 220px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+div.event-block1 {
+    height: fit-content;
+}
+
+p.p-event {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 19%;
+    width: 60%;
+    /* justify-content: right; */
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    font-size: 20px;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+/* **************block-3-col****************** */
+
+.col-event {
+    background-color: bisque;
+}
+
+.col-event1 {}
+
+.column-event h2 {
+    font-size: 26px;
+    text-align: center;
+    color: black;
+
+    /* margin-top: 0px; */
+
+}
+
+.column-event p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 20px;
+
+
+
+}
+
+.column-event {
+    float: left;
+    width: 33.33%;
+    /* padding: 10px; */
+    /* height: 300px; */
+
+
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row-event:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #f0f0f0;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 968px) {
+    .column-event {
+        width: 99%;
+        /* height: 50%; */
+        margin-right: 50px;
+    }
+
+    div.event-block1 {
+
+
+        width: 100%;
+
+    }
+
+    p.p-event {
+        font-size: 18px;
+        width: 60%;
+        height: 50%;
+        column-count: 1;
+
+    }
+}
+
+
+
+.event-4 {
+    background-image: url("./grand.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+}

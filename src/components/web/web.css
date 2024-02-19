@@ -1,0 +1,118 @@
+.Event {
+    width: 100vw;
+    height: fit-content;
+}
+
+h1.h1plan1 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-top: 190px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+div.ddd1 {
+    background-image: url("./rendu.jpg");
+
+    /* background-color: #d7dce4; */
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding-top: 1%;
+}
+
+.column-web h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.column-web p {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 20px;
+
+
+}
+
+p.p-web {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-left: 19%;
+    width: 60%;
+    /* margin-right: 30px; */
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 200;
+    font-size: 22px;
+    column-count: 2;
+    column-gap: 37px;
+}
+
+.col-web {
+    background-color: bisque;
+}
+
+.col1-web {
+    background-color: #f0f0f0;
+}
+
+div.ddp {
+    height: fit-content;
+}
+
+/* Container for flexboxes */
+.row-web {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column-web {
+    flex: 26%;
+    padding: 80px;
+    /* height: 80vh; */
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column-web {
+        flex: 50%;
+
+        /* padding: 0px; */
+
+
+    }
+
+    p.p-web {
+        font-size: 18px;
+        height: 50%;
+        column-count: 1;
+
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .row-web {
+        flex-direction: column;
+
+    }
+}
+
+.web-4 {
+    background-image: url("./grand.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+}

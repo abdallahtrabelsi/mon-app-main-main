@@ -1,0 +1,135 @@
+// **********block1***********************
+.strategie-block1 {
+    background-image: url("./creative.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creh1 {
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    // top: -10;
+    // left: 0;
+    width: 100%;
+    margin-top: 20%;
+
+
+    // display: flex;
+
+}
+
+// **********block1***********************
+
+.boxes {
+    color: black;
+    // margin: 4px;
+    background-color: rgb(231, 223, 223);
+    // height: 100vh;
+    // box-shadow: 0 1px 20px;
+}
+
+// ******************box1***************
+
+.h1-strategie {
+    margin-top: 25%;
+    font-size: 30px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.p-strategie {
+    font-family: system-ui;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.image-strategie {
+
+    height: 100vh;
+    width: 49.5vw;
+
+
+    object-fit: contain;
+}
+
+.column-strategie {
+    float: left;
+    width: 50%;
+    // padding: 10px;
+    // height: 658px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+
+/* Clear floats after the columns */
+.row-strategie:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+    .column-strategie {
+        width: 100%;
+        height: 50%;
+
+    }
+
+
+
+    .image-strategie {
+
+        height: 100%;
+        width: 100%;
+
+
+        // object-fit: cover;
+    }
+
+}
+
+
+// ******************box1***************
+// .content {
+//     position: absolute;
+//     /* border: 2px solid black; */
+//     top: 35%;
+//     right: 50%;
+//     font-weight: bold;
+//     font-size: 30px;
+// }
+.btn-strategie {
+    background-color: #140a29;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 40%;
+
+    // display: block;
+    cursor: pointer;
+
+}
+
+.llink1 {
+    color: rgb(255, 255, 255);
+    // padding-left: 1px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,194 @@
+// // .App {
+// //     font-family: sans-serif;
+// // }
+
+// // html,
+// // body {
+// //     padding: 0;
+// //     margin: 0;
+// // }
+
+// // * {
+// //     box-sizing: border-box;
+// // }
+
+
+// .creative-div {
+//     background-image: url("./creative.jpg");
+//     width: 100vw;
+//     height: 100vh;
+
+//     background-position: center;
+//     // background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+// .creh1 {
+//     font-size: 70px;
+//     text-align: center;
+//     color: rgb(255, 255, 255);
+//     position: absolute;
+//     // top: -10;
+//     // left: 0;
+//     width: 100%;
+//     margin-top: 10%;
+
+
+//     // display: flex;
+
+// }
+
+// @media screen and (max-width: 768px) {
+//     .image-wrapper {
+//         width: 100%;
+
+//     }
+
+//     img.image {
+//         height: 30vh;
+//         width: 100%;
+//         margin-top: -55px;
+
+
+//     }
+
+//     div.first {
+//         // position: absolute;
+//         // background-color: #140a29;
+//         width: 100%;
+//         height: auto;
+//     }
+
+//     h1.hhs {
+//         width: 100%;
+
+
+//         font-size: 22px;
+//         // height: 50%;
+
+//         /* padding-top: 250px; */
+//         margin-left: -57%;
+
+//     }
+
+//     p.pst {
+//         width: 98%;
+//         // background-color: rgb(26, 202, 50);
+//         font-size: 18px;
+//         // height: 50%;
+//         // margin-right: 20%;
+//         /* padding-top: 250px; */
+//         margin-left: -57%;
+
+//     }
+
+//     button.bbts {
+//         // background-color: #521aca;
+//         color: rgb(255, 255, 255);
+//         border: none;
+//         border-radius: 10px;
+//         // padding: 10px;
+//         // margin-left: 58%;
+//         margin-top: 10px;
+//         display: block;
+//         // cursor: pointer;
+
+//     }
+
+//     a.llink11 {
+//         color: rgb(255, 255, 255);
+//         // padding-left: 1px;
+//         text-decoration: none;
+
+//     }
+// }
+
+
+
+
+
+
+
+// @media screen and (max-width: 568px) {
+//     h1.creh1 {
+//         font-size: 30px;
+//         margin-top: 45vw;
+//     }
+// }
+
+// .wrapper {
+//     position: sticky;
+
+
+// }
+
+// .image-wrapper {
+//     display: flex;
+//     position: absolute;
+//     height: 100%;
+//     // background-color: #140a29;
+//     // width: 50%;
+//     // margin-top: 10px;
+
+// }
+
+// .image {
+//     position: sticky;
+//     display: flex;
+//     padding-top: 6%;
+//     top: 30px;
+//     left: 40px;
+//     width: 50vw;
+//     height: 75vh;
+// }
+
+// .first,
+// .second,
+// .third .fourd {
+//     height: 100vh;
+// }
+
+
+// .hhs {
+//     font-size: 33px;
+//     width: 130%;
+//     padding-top: 250px;
+//     padding-left: 58%;
+//     width: 40%;
+//     // @include mobile {
+//     //     font-size: 36px;
+//     // }
+// }
+
+// .pst {
+//     color: rgb(0, 0, 0);
+//     font-size: 20px;
+//     padding-left: 58%;
+//     width: 40%;
+//     text-align: justify;
+
+//     // @include mobile {
+//     //     font-size: 16px;
+//     // }
+// }
+
+// .bbts {
+//     background-color: #140a29;
+//     color: rgb(255, 255, 255);
+//     border: none;
+//     border-radius: 10px;
+//     padding: 10px;
+//     margin-left: 58%;
+
+//     // display: block;
+//     cursor: pointer;
+
+// }
+
+// .llink11 {
+//     color: rgb(255, 255, 255);
+//     // padding-left: 1px;
+//     text-decoration: none;
+
+// }
